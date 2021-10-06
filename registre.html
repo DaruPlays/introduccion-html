@@ -9,11 +9,11 @@
 <body>
     <nav>
         <li>
-            <a href="simple.html"/> Pàgina del ca </a>
-        </li>
-    
-        <li>
             <a href="index.html"/> index </a>
+        </li>
+
+        <li>
+            <a href="simple.html"/> Pàgina del ca </a>
         </li>
     
         <li>
@@ -24,11 +24,47 @@
             <a href="registre.html"> Registre </a>
         </li>
     </nav>
+<form action="registre.html" method="GET"> 
     <h1>Registrar-se</h1>
-    <label for="text">Usuari:</label>
+    <label for="text">Nom:</label>
     <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
 
-    <label for="password">Contrasenya</label>    
+    <label for="last_name">Llinatges:</label>
+    <input type="text" required>
+
+<div>
+    <label for="Home">Home:</label>
+    <input type="radio" value="Home">
+
+    <label for="Dona">Dona:</label>
+    <input type="radio" value="Dona">
+
+    <label for="Altre">Altre:</label>
+    <input type="radio" value="Altre">
+</div>
+    
+<div>
+    
+</div>
+
+<div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Correu Electrònic" required/>
+
+    <label for="password">Contrasenya:</label>    
     <input type="password" id="password" name="password" required minlength="5" maxlength="10" size="10">
+</div>
+
+<div>
+    <label for="data">Data de naixament:</label>
+    <input type="date" id="date" required>
+</div>
+
+<div>
+    <label for="checkbox">Esti d'acord amb els termes i condicions</label>
+    <input type="checkbox" id="checkbox" required>
+</div>
+    <button>Registrar</button>
+</form>
 </body>
 </html>
