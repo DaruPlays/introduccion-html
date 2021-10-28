@@ -1,0 +1,64 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+
+body
+{
+    background-color:darkgoldenrod;
+}
+
+.tab-container-1 div:hover
+{
+    
+    color: lightcyan;
+    cursor: pointer;
+}
+
+.tab-container-1
+{
+    color: white;
+    font-style:unset;
+    display: flex;
+    width: 66%;
+    background-color:rgba(39, 38, 38, 0.993);
+    margin: 0;
+    padding: 10px 120px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tab-container-1 #tab-1
+{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 #tab-2
+{
+    flex: 1 1 auto;  
+}
+
+.tab-container-1 #tab-3
+{
+    flex: 1 1 auto; 
+}
+
+.tab-container-1 #tab-4
+{
+    flex: 1 1 auto;
+}
+
+
+.tab-container-1 #tab-5
+{
+    flex: 1 1 auto;
+}
+
+
+.tab-container-1 #tab-6
+{
+    flex: 1 1 auto;
+}
