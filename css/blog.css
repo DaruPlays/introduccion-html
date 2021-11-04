@@ -18,14 +18,14 @@
 body
 {
     border: 10px solid #bdc3c7;
-    margin: 10px solid;
+    margin: 10px auto;
     width: 75%;
     padding: 15px;
     font-size: 12px;
     max-width: 700px;
 }
 
-nav ul
+.blog ul
 {
     padding: 0;
 }
@@ -34,7 +34,7 @@ nav ul
 .blog li
 {
     float: left;
-    width: 25%;
+    width: 24%;
     height: 25px;
     text-align: center;
     background-color: #bdc3c7;
