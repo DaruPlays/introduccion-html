@@ -9,6 +9,7 @@
 body
 {
     background-color:darkgoldenrod;
+    
 }
 
 .tab-container-1 div:hover
@@ -23,7 +24,7 @@ body
     color: white;
     font-style:unset;
     display: flex;
-    width: auto;
+    width: 89%;
     background-color:rgba(39, 38, 38, 0.993);
     margin: 0 auto;
     padding: 10px 120px;

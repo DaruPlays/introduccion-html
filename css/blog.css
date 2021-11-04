@@ -2,13 +2,17 @@
 {
     margin: 0;
     padding: 0;
-font-family: 'Open Sans', sans-serif;
-list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
 }
 
 .Data
 {
     color: #3498db;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
 
 body
@@ -17,7 +21,7 @@ body
     margin: 10px solid;
     width: 75%;
     padding: 15px;
-    font-size: 16px;
+    font-size: 12px;
     max-width: 700px;
 }
 
@@ -27,7 +31,7 @@ nav ul
 }
 
 
-nav li
+.blog li
 {
     float: left;
     width: 25%;
@@ -37,4 +41,40 @@ nav li
     padding: 8px 0px 0px 0px;
 }
 
+.blog li:hover
+{
+    background-color: #323638;
+    color: white;
+    cursor: pointer;
+}
 
+
+.article h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.resum
+{
+    border-left: 3px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+p
+{
+    margin-bottom: 12px;
+    font-size: 1.2em;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
